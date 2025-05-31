@@ -1,14 +1,12 @@
-import * as THREE from "three";
+import { useState } from "react";
+import Navbar from "./sections/Navbar";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <div>
-        {" "}
-        <h1>Anjali tomar</h1>
-        <img src="./public/logo.svg" alt="logo" />
-      </div>
+      <Navbar />
+      <div className="text-7xl font-bold underline">Anjali tomar</div>{" "}
     </>
   );
 }
