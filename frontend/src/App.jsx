@@ -1,12 +1,11 @@
 import { useState } from "react";
-import Navbar from "./sections/Navbar";
 import "./App.css";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <div className="text-7xl font-bold underline">Anjali tomar</div>{" "}
+      <Hero />
     </>
   );
 }
