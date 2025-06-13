@@ -20,7 +20,11 @@ const HeroExperience = () => {
         />
         <mesh>
           <boxGeometry args={[1, 1, 1]} />
-          <meshStandardMaterial color="teal" />
+          <meshStandardMaterial color="purple" />
+        </mesh>
+        <mesh>
+          <boxGeometry args={[3, 3, 3]} />
+          <meshStandardMaterial color="purple" />
         </mesh>
       </Canvas>
     </>
